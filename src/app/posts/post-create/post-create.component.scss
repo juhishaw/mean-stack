@@ -1,0 +1,14 @@
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 50%;
+
+  .title-input {
+    width: 100%;
+  }
+
+  .text-area-field {
+    width: 100%;
+  }
+}

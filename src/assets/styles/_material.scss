@@ -1,0 +1,39 @@
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: #fff !important;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-floating-label,
+.mdc-text-field--filled:not(.mdc-text-field--disabled)
+  .mdc-floating-label--float-above {
+  color: #000 !important;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled)
+  .mdc-line-ripple::before {
+  border-bottom-color: #000 !important;
+}
+
+.mat-mdc-button.mat-mdc-button-base,
+.mat-mdc-raised-button.mat-mdc-button-base,
+.mat-mdc-unelevated-button.mat-mdc-button-base,
+.mat-mdc-outlined-button.mat-mdc-button-base {
+  background-color: #eee !important;
+}
+
+.mat-mdc-card {
+  background-color: #fff !important;
+}
+
+.mdc-text-field--no-label:not(.mdc-text-field--textarea)
+  .mat-mdc-form-field-input-control.mdc-text-field__input,
+.mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control {
+  resize: none;
+}
+
+.mat-expansion-indicator::after {
+    color: #000 !important;
+} 
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: #000 !important;
+}
